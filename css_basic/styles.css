@@ -13,6 +13,7 @@ aside {
     flex-direction: column;
     min-height: 100vh; /* Ensures body takes at least full viewport height */
     margin: 0; /* Removes default margin */
+    
   }
   
   main {
@@ -24,6 +25,9 @@ aside {
   article {
     flex: 2;
     overflow-y: auto; /* Enables vertical scrolling if content overflows */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px; /* Adds padding for better readability */
+    background-color: #f9f9f9; /* Light background for article */
   }
   
   aside {
