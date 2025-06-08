@@ -1,0 +1,34 @@
+
+
+article{
+    flex:2;
+    overflow-y:auto
+}
+
+aside {
+    flex:1;
+    overflow-y:auto;
+}body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures body takes at least full viewport height */
+    margin: 0; /* Removes default margin */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Takes up remaining space between header and footer */
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto; /* Enables vertical scrolling if content overflows */
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto; /* Enables vertical scrolling if content overflows */
+  }
+  
+ 
